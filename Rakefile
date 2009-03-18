@@ -1,8 +1,8 @@
 task :default => :all
 
-desc "Upload to burkelibbey.org"
+desc "Upload to nowhere..."
 task :upload do
-  system("scp burke_libbey.pdf og:b/files")
+  #system("scp burke_libbey.pdf og:b/files")
 end
 
 desc "Commit to git repo"
@@ -12,7 +12,7 @@ end
 
 desc "Build PDF"
 task :build do
-  system("pdflatex burke_libbey.tex")
+  system("pdflatex ryan_neufeld.tex")
 end
 
 task :all => [:build, :commit, :upload]
