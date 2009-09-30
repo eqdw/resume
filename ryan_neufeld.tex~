@@ -14,8 +14,12 @@
   \section{\mysidestyle Contact\\Information}\vspace{2mm}
 
   \begin{tabular}{@{} l @{\hspace{76mm}} r}
+<<<<<<< HEAD
   259 Pembina Drive      & 1.204.384.7331         \\
-  Morden, MB~ R6M 1H7    & ryan@ryanneufeld.ca     \\
+=======
+  259 Pembina Drive      & 1.204.823.1839        \\
+>>>>>>> 2e9f9f9b73a9704ff88485cfffc0c464858d6e9b
+  Morden, MB~ R6M 1H7    & me@ryanneufeld.ca     \\
                          & http://ryanneufeld.ca \\
   \end{tabular}
 
@@ -25,7 +29,6 @@
   \section{\mysidestyle Technical\\Expertise}
 
   Proficient with Ruby on Rails environment, including a wide range of gems \& tools. \\
-  Some of my favorite RoR gems/tools are Haml, Rspec, Cucumber and jQuery. \\
   Fluent in Ruby, Javascript, C/C++, Objective-C, and X/HTML. \\
   Conversant in Clojure, Common Lisp,  Java, Python, CSS and others.
   
