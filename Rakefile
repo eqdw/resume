@@ -2,7 +2,7 @@ task :default => :all
 
 desc "Upload to nowhere..."
 task :upload do
-  #system("scp burke_libbey.pdf og:b/files")
+  system("scp ryan_neufeld.pdf og:srv/ryanneufeld.ca/htdocs/assets/ryan_neufeld.pdf")
 end
 
 desc "Commit to git repo"
