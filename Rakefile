@@ -12,6 +12,7 @@ end
 
 desc "Build PDF"
 task :build do
+  system("rm ryan_neufeld.pdf")
   system("pdflatex ryan_neufeld.tex")
 end
 
