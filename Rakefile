@@ -2,7 +2,7 @@ task :default => :all
 
 desc "Upload to nowhere..."
 task :upload do
-  system("scp eqdw.pdf eqdw.net:resume.pdf")
+  system("scp eqdw.pdf eqdw.net:website/resume.pdf")
 end
 
 desc "Commit to git repo"
