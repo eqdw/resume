@@ -2,7 +2,7 @@ task :default => :all
 
 desc "Upload to nowhere..."
 task :upload do
-  system("scp ryan_neufeld.pdf prgmr:r/.")
+  system("scp eqdw.pdf eqdw.net:resume.pdf")
 end
 
 desc "Commit to git repo"
@@ -12,8 +12,8 @@ end
 
 desc "Build PDF"
 task :build do
-  system("rm ryan_neufeld.pdf")
-  system("pdflatex ryan_neufeld.tex")
+  system("rm eqdw.pdf")
+  system("pdflatex eqdw.tex")
 end
 
 task :all => [:build, :commit, :upload]
